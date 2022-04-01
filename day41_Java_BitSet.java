@@ -20,7 +20,7 @@ public class Solution {
             int x = sc.nextInt();
             int y = sc.nextInt();
             
-            switch (op){
+            switch(op){
                 case "AND":
                 bitset[x].and(bitset[y]);
                 break;
@@ -34,10 +34,12 @@ public class Solution {
                 bitset[x].flip(y);
                 break;
                 case "SET":
-                bitset[x].set(y);
+               bitset[x].set(y);
                 break;
-            } 
-            System.out.printf("d% %d%n", b1.cardinality(), b2.cardinality());
-        }    
+            }
+            System.out.printf("%d %d%n", b1.cardinality(), b2.cardinality());
+        }
+    
     }
 }
+
